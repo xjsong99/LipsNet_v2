@@ -199,7 +199,7 @@
             The paper propose LipsNet++, a policy network incorporating a Fourier filter layer and Lipschitz controller layer. It can be used as policy network in most actor-critic RL algorithms to obtain smoother control action in real-world applications.
           </p>
           <img src="static/images/Thumbnail.png"
-            width="500"
+            width="400"
             class="center"/>
         </div>
       </div>
@@ -211,7 +211,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Reasons Identification of Action Fluctuation</h2>
+        <h2 class="title is-3">1. Reasons Identification of Action Fluctuation</h2>
         <div class="content has-text-justified">
           <p>
             Our paper identifies the two fundamental reasons that causes action fluctuation:
@@ -220,8 +220,15 @@
             <li>Non-smoothness of policy network</li>
             <li>Existence of observation noise</li>
           </ul>
-          Our paper proposes two techniques to address the two fundamental reasons causing action fluctuation, respectively.
 
+          <img src="static/images/reason_identify.png"
+            width="850"
+            class="center"/>
+          <br>
+          <p>
+            Our paper proposes two layers to address the above two reasons, respectively.
+          </p>
+          
           <img src="static/images/two_reasons.png"
             width="850"
             class="center"/>
@@ -237,7 +244,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Policy Network Structure</h2>
+        <h2 class="title is-3">2. Policy Network Structure</h2>
         <div class="content has-text-justified">
           <p>
             There are two layers incorporated in LipsNet++:
@@ -246,14 +253,17 @@
             <li>Fourier filter layer</li>
             <li>Lipschitz controller layer</li>
           </ul>
-          The two techniques respectively tackle the two fundamental reasons causing action fluctuation.
+          <p>
+            The two layers respectively tackle the two fundamental reasons causing action fluctuation.
+            These two layers function analogously to the filter and controller in classical control theory, suggesting that filtering and control capabilities can be seamlessly integrated into a single policy network.
+          </p>
 
           <img src="static/images/network_structure.png"
-            width="700"
+            width="1000"
             class="center"/>
           <br>
           LipsNet++ is applicable in almost all actor-critic RL algorithms, including DDPG, TD3, PPO, TRPO, SAC, and DSAC, etc.
-          LipsNet++ produces smooth control actions, which contributes to the applications of RL in the real world.
+          LipsNet++ produces smooth control actions, which contributes to the real-world applications of RL.
         </div>
       </div>
     </div>
@@ -301,7 +311,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Mini-Vehicle Driving Task</h2>
+        <h2 class="title is-3">3. Video of Mini-Vehicle Driving Task</h2>
         <div class="content has-text-justified">
           <p>
             This is a real-world application on the vehicle-robot driving task. The vehicle is controlled by the policy network, i.e. LipsNet++, trained by RL.
@@ -323,7 +333,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">User-friendly Packaging</h2>
+        <h2 class="title is-3">4. User-friendly Packaging</h2>
         <div class="content has-text-justified">
           <p>
             The user-friendly packaging of LipsNet++ does not disturb original RL algorithm, allowing application in various RL algorithms.
@@ -331,7 +341,7 @@
             The code will be released after review.
           </p>
           <img src="static/images/packaging.png"
-            width="420"
+            width="330"
             class="center"/>
         </div>
       </div>
