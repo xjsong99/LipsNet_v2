@@ -92,6 +92,20 @@
         padding: 5px;
         text-align: center;
     }
+
+    .image-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      text-align: center;
+    }
+
+    .image-row img {
+      max-height: 70px;
+      width: auto; /* 关键：保持纵横比 */
+    }
   </style>
 
 </head>
@@ -107,11 +121,9 @@
 
             <div class="is-size-5 publication-authors">
               <span class="author-block"><b>ICML 2025 (Spotlight)</b></span>
-              <span class="eql-cntrb"><small><br></small></span>
             </div>
 
             <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
               <span class="author-block">
                 X Song, L Chen, T Liu, W Wang, Y Wang, S Qin, Y Ma, J Duan<sup>*</sup>, S E Li<sup>*</sup>
             </div>
@@ -132,6 +144,13 @@
                         <span>Paper</span>
                       </a>
                     </span> -->
+                <br>
+                <div class="image-row">
+                  <img src="static/images/thu_logo.jpg" />
+                  <img src="static/images/jhu_logo_2.jpg" />
+                  <img src="static/images/ustb_logo_2.png" />
+                </div>
+                <br>
 
                 <span class="link-block">
                   <a href="https://github.com/xjsong99/LipsNet_v2" target="_blank"
@@ -144,7 +163,7 @@
                 </span>
 
                 <span class="link-block">
-                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                  <a href="https://mp.weixin.qq.com/s/b30Hpqhg_JCHhoNBYYgETA" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-weixin"></i>
