@@ -4,7 +4,7 @@ The paper is accepted at **ICML 2025** as **Spotlight** with the title '***LipsN
 
 Links: [[**Paper**](https://openreview.net/pdf?id=KZo2XhcSg6)], [[**Poster**](https://github.com/xjsong99/LipsNet_v2/blob/main/materials/Poster.pdf)], [[**Website**](https://xjsong99.github.io/LipsNet_v2/)].
 
-<img src="materials/Thumbnail.png" width="38%">
+<img src="materials/Thumbnail.png" width="45%">
 
 LipsNet++ is the upgraded version of LipsNet (Song, ICML 2023).
 It can serve as **policy networks** in most **actor-critic RL** algorithms to reduce the action fluctuation.
@@ -12,7 +12,7 @@ A low level of action fluctuation will protect mechanical components from the we
 
 The overall structure is shown below:
 
-<img src="materials/Structure.png" width="70%">
+<img src="materials/Structure.png" width="85%">
 
 ## Requirements
 The **version of PyTorch** should be higher than 1.11 and lower than 2.3,
