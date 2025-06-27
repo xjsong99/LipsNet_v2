@@ -6,8 +6,8 @@ Links: [[**Paper**](https://openreview.net/pdf?id=KZo2XhcSg6)], [[**Poster**](ht
 
 <img src="materials/Thumbnail.png" width="45%">
 
-LipsNet++ is the upgraded version of LipsNet (Song, ICML 2023).
-It can serve as **policy networks** in most **actor-critic RL** algorithms to reduce the action fluctuation.
+LipsNet++ is the upgraded version of [LipsNet](https://github.com/xjsong99/LipsNet) (*Song, ICML 2023*).  
+It can serve as **policy networks** in most **actor-critic RL** algorithms to reduce the action fluctuation.  
 A low level of action fluctuation will protect mechanical components from the wear and tear, and reduce safety hazards.
 
 The overall structure is shown below:
