@@ -2,7 +2,7 @@
 
 The paper is accepted at **ICML 2025** as **Spotlight** with the title '***LipsNet++: Unifying Filter and Controller into a Policy Network***'.
 
-Links: [[**Paper**](https://openreview.net/pdf?id=KZo2XhcSg6)], [[**Poster**](https://github.com/xjsong99/LipsNet_v2/blob/main/materials/Poster.pdf)], [[**Website**](https://xjsong99.github.io/LipsNet_v2/)].
+Links: [[**Paper**](https://openreview.net/pdf?id=KZo2XhcSg6)], [[**Poster**](https://github.com/xjsong99/LipsNet_v2/blob/main/materials/Poster.pdf)], [[**Website**](https://xjsong99.github.io/LipsNet_v2/)], [[**Post**](https://mp.weixin.qq.com/s/b30Hpqhg_JCHhoNBYYgETA)].
 
 <img src="materials/Thumbnail.png" width="45%">
 
